@@ -8,6 +8,8 @@
 const inputSize = document.querySelector('#font-size-control');
 const textAbracadabra = document.querySelector('#text');
 
+inputSize.style.fontSize = `${inputSize.value}px`;
+
 textAbracadabra.style.fontSize = `${inputSize.value}px`;
 
 inputSize.addEventListener('change', event => {
